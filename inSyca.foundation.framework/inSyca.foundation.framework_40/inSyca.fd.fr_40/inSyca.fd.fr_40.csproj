@@ -116,7 +116,6 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="defaults\ControlChars.cs" />
-    <Compile Include="diagnostics\ElasticSearchAppender.cs" />
     <Compile Include="diagnostics\EventArgs.cs" />
     <Compile Include="diagnostics\Information.cs" />
     <Compile Include="diagnostics\InformationBase.cs" />
@@ -223,12 +222,6 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\..\..\opencode\bruno-garcia\log4net.ElasticSearch\src\log4net.ElasticSearch\log4net.ElasticSearch.csproj">
-      <Project>{0d319284-be4d-4ace-89a6-54c13d5d87ae}</Project>
-      <Name>log4net.ElasticSearch</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

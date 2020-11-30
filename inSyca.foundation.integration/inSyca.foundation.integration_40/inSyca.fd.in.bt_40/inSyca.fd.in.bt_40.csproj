@@ -163,14 +163,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\opencode\bizunit\Src\BizUnit.Core\BizUnit.Core.csproj">
-      <Project>{7c85248a-15d4-4a17-a496-aecf789e0f10}</Project>
-      <Name>BizUnit.Core</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\..\..\opencode\bizunit\Src\BizUnit.TestSteps\BizUnit.TestSteps.csproj">
-      <Project>{5bfef184-0834-4fba-addb-ad798ce0b58d}</Project>
-      <Name>BizUnit.TestSteps</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\inSyca.foundation.framework\inSyca.foundation.framework_40\inSyca.fd.fr_40\inSyca.fd.fr_40.csproj">
       <Project>{341e5b33-89e7-4349-9e0c-b954103af331}</Project>
       <Name>inSyca.fd.fr_40</Name>
